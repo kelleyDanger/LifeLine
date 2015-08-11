@@ -1,0 +1,133 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+
+    <!-- Main Content View -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/grey3">
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape_transparent_circle"
+        android:id="@+id/transparentCircle"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape_blue_circle"
+            android:id="@+id/blueCircle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:layout_alignTop="@+id/transparentCircle"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_social_notification"
+            android:id="@+id/imageViewHomeEmergency"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:layout_alignTop="@+id/transparentCircle"
+            android:clickable="true"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/shape_light_blue_background"
+            android:id="@+id/homeLightBlueBg"
+            android:layout_below="@+id/transparentCircle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_friends"
+            android:id="@+id/textViewTitleFriends"
+            android:textSize="50sp"
+            android:layout_marginTop="30dp"
+            android:layout_alignTop="@+id/homeLightBlueBg"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape_white_circle"
+            android:id="@+id/circleFriend1"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textViewTitleFriends"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageViewFriend1"
+            android:src="@drawable/ic_image_flower"
+            android:layout_alignTop="@+id/circleFriend1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/circleFriend1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape_white_circle"
+            android:id="@+id/circleFriend2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/textViewTitleFriends"
+            android:layout_toRightOf="@+id/circleFriend1" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageViewFriend2"
+            android:src="@drawable/ic_maps_bike"
+            android:layout_alignTop="@+id/circleFriend2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/circleFriend2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shape_white_circle"
+            android:id="@+id/circleFriend3"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textViewTitleFriends"
+            android:layout_toRightOf="@+id/circleFriend2" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageViewFriend3"
+            android:src="@drawable/ic_image_palette"
+            android:layout_alignTop="@+id/circleFriend3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/circleFriend3" />
+
+
+    </RelativeLayout>
+    <!-- /Main Content View -->
+    <!-- The navigation drawer -->
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#111"/>
+
+</android.support.v4.widget.DrawerLayout>

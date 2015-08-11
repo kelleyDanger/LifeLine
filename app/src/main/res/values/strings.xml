@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">LifeLine</string>
+    <string name="action_settings">Settings</string>
+
+    <!--activity title-->
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_fragment_edit_friend">Edit Friend</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edit_contacts">Edit Contacts</string>
+    <string name="title_activity_add_contact">Add Contact</string>
+    <string name="title_activity_draw_contact">Draw Contact</string>
+    <string name="title_activity_emergency">Emergency</string>
+    <!--/activity title-->
+
+    <!--navigation drawer-->
+    <string-array name="navigation_drawer_items_array">
+        <item>Home</item>
+        <item>Edit Friends</item>
+        <item>Contacts</item>
+        <item>Settings</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!--/navigation drawer-->
+
+    <!--activity_log_in-->
+    <string name="login">Login</string>
+    <string name="login_email">Email: </string>
+    <string name="login_email_hint">email... </string>
+    <string name="login_password">Password: </string>
+    <string name="login_password_hint">password... </string>
+    <string name="login_button">Login</string>
+    <!--/activity_log_in-->
+
+    <!-- fragment_home-->
+    <string name="title_friends">Friends</string>
+    <string-array name="fake_call_alarm_items_array">
+        <item>5 Sec.</item>
+        <item>30 Sec.</item>
+        <item>1 Min.</item>
+        <item>5 Min.</item>
+        <item>30 Min.</item>
+        <item>1 Hour</item>
+    </string-array>
+    <!-- /fragment_home-->
+
+    <!--menu-->
+    <string name="menu_home">Home</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="menu_settings">Settings</string>
+    <!--/menu-->
+
+    <!--fragment_edit_friend-->
+    <string name="label_nickname">Nickname: </string>
+    <string name="label_phone">Phone: </string>
+    <string name="label_default_emergency_text">Default Emergency Text: </string>
+    <!--/fragment_edit_friend-->
+
+    <!--contacts-list-item-->
+    <string name="textImageViewDescription">send text message to contact</string>
+    <string name="callImageViewDescription">call contact</string>
+    <string name="emailImageViewDescription">send email to contact</string>
+    <!--/contacts-list-item-->
+
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="menuitem_add_user_contact">Add Contact</string>
+    <string name="add_new_contact_button">Add New Contact</string>
+
+</resources>

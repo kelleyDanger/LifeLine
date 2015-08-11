@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="deepBlue" type="color">#3C4973</item>
+    <item name="deepPurple" type="color">#2C2940</item>
+    <item name="lightPurple" type="color">#C8C5D9</item>
+    <item name="mediumPurple" type="color">#777AA6</item>
+
+    <item name="green" type="color">#FF99CC00</item>
+    <item name="orange" type="color">#FFFFBB33</item>
+    <item name="red" type="color">#FFFF4444</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+
+
+    <!-- blue -->
+    <item name="lifelineBlue" type="color">#3f6cc7</item>
+    <item name="blue1" type="color">#022340</item>
+    <item name="loginDarkBlue" type="color">#142640</item>
+    <item name="blueGrey" type="color">#4F5F7F</item>
+    <item name="blue2" type="color">#022E40</item>
+    <item name="blue3" type="color">#026773</item>
+    <item name="blue4" type="color">#038C8C</item>
+    <item name="offwhite" type="color">#FCFFF5</item>
+    <!-- /blue -->
+
+    <!-- grey -->
+    <item name="grey1" type="color">#F3F2E7</item>
+    <item name="grey6" type="color">#DDDDDD</item>
+    <item name="grey2" type="color">#A7A5A3</item>
+    <item name="grey3" type="color">#757370</item>
+    <item name="grey4" type="color">#42403F</item>
+    <item name="grey5" type="color">#272525</item>
+    <!-- /grey -->
+
+    <!-- opaques -->
+    <item name="opaque_red" type="color">#66FF0000</item>
+    <!-- /opaques -->
+
+
+
+    <integer-array name="androidcolors">
+        <item>@color/deepBlue</item>
+        <item>@color/deepPurple</item>
+        <item>@color/lightPurple</item>
+        <item>@color/mediumPurple</item>
+
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkgreen</item>
+        <item>@color/darkorange</item>
+        <item>@color/darkred</item>
+
+        <item>@color/blue1</item>
+        <item>@color/blue2</item>
+        <item>@color/blue3</item>
+        <item>@color/blue4</item>
+    </integer-array>
+
+
+
+</resources>

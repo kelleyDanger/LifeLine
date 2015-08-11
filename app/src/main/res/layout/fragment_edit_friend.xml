@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:id="@+id/nicknameLabelTextView"
+                style="@style/FriendLabel"
+                android:text="@string/label_nickname" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <EditText android:id="@+id/nicknameEditText"
+                style="@style/FriendTextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:id="@+id/phoneLabelTextView"
+                style="@style/FriendLabel"
+                android:text="@string/label_phone" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <EditText android:id="@+id/phoneEditText"
+                style="@style/FriendTextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView android:id="@+id/defaultEmergencyTextLabelTextView"
+                style="@style/FriendLabel"
+                android:text="@string/label_default_emergency_text" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <EditText android:id="@+id/defaultEmergencyTextEditText"
+                style="@style/FriendTextView" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:textSize="20sp"
+                android:background="@color/darkgreen"
+                android:id="@+id/saveFriendButton"
+                android:layout_marginTop="20dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</ScrollView>

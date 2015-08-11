@@ -1,0 +1,63 @@
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactLinearLayout"
+        android:orientation="vertical"
+        android:background="@android:color/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactTextView"
+            android:background="@android:color/black"
+            android:text="Stupidly Long, Horrendous Name To Test"
+            android:padding="8dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:minHeight="?android:listPreferredItemHeight"
+            android:gravity="center_vertical"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@android:color/black">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textImageView"
+                android:src="@drawable/ic_communication_message_white"
+                android:contentDescription="@string/textImageViewDescription"
+                android:layout_weight=".3"
+                android:layout_marginBottom="10dp"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/callImageView"
+                android:src="@drawable/ic_communication_call_white"
+                android:contentDescription="@string/callImageViewDescription"
+                android:layout_weight=".3"
+                android:layout_marginBottom="10dp"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailImageView"
+                android:src="@drawable/ic_communication_email_white"
+                android:contentDescription="@string/emailImageViewDescription"
+                android:layout_weight=".3"
+                android:layout_marginBottom="10dp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
